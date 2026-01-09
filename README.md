@@ -124,7 +124,7 @@ Press L → calls OpenAI API for descriptive summary
 
 Press P → prints full dossier to console
 
-Installation & Setup
+## Installation & Setup
 Clone and enter project
 
 bash
@@ -159,14 +159,14 @@ Start the detection/classification camera
 
 bash 
 python detect_and_classify.py --det yolo11n.pt --cls models/best.pt --label_map data/car_cls_triplet/label_map.json --specs tools/_analysis/class_specs.json --source 0 --hold_secs 2.0
-Usage Controls
+## Usage Controls
 Key	Action
 ESC	Quit program
 L	Fetch and overlay AI-generated car summary
 P	Print full dossier (title, specs, summary)
 (Auto)	Classifies car after ~2 seconds of steady detection
 
-Example Output
+## Example Output
 In-App Overlay
 text
 Lexus ES 2013  (0.88)
@@ -183,14 +183,14 @@ Summary:   A serene luxury sedan praised for its whisper-quiet ride and timeless
 Specs:     {'drivetrain': 'FWD', 'engine': 'V6', 'body': 'Sedan'}
 
 
-Use Cases
+## Use Cases
 Domain	Use Case
 Car Shows / Auctions	Visitors point camera → instant car summaries
 Dealership Apps	Real-time inventory recognition + AI-driven information
 Education / Enthusiasts	Identify classic models and display technical details
 Fleet Management	Validate vehicle types using live camera input
 Automotive Research	Rapid vehicle identification and data collection
-Contributors
+## Contributors
 Mahip
 Keito
 Kabir
